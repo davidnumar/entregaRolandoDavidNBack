@@ -90,7 +90,7 @@ public class ProductoController {
 	}
 
 
-	@PutMapping("producto/{id}")
+	@PutMapping("productos/{id}")
 	public ResponseEntity<?> update(@PathVariable long id, @RequestBody Producto producto) {
 		Producto productoUpdate = null;
 		Map<String, Object> response = new HashMap<>();
